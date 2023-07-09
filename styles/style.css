@@ -48,10 +48,11 @@ ul {
     font-weight: 600;
     padding: 20px 25px;
     border-radius: 5px;
-    border: 1px solid #005FAC;
+    border: 1px solid #fff;
     background-color: #fff;
 }
 .btn-primary:hover {
+    cursor: pointer;
     color: #fff;
     background-color: transparent;
 }
@@ -132,6 +133,84 @@ ul {
     font-weight: 500;
 }
 /* MY PLANS SECTION ENDS */
+
+/* HARDWORK SECTION STARTS */
+.hardowrk {}
+.hardwork .hardwork-overlay {
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-size: cover;
+    min-height: 300px;
+}
+.hardwork .row {
+    min-height: 300px;
+}
+.hardwork .motivation-message {
+    margin-left: 64px;
+    width: 50%;
+}
+.hardwork .motivation-message h1 {
+    color: #fff;
+    margin-bottom: 24px;
+}
+/* HARDWORK SECTION ENDS */
+
+/* FOOTER SECTION STARTS */
+.footer {
+    background-color: #151414;
+    padding: 130px 0;
+    color: white;
+}
+.footer .footer-contact {}
+.footer .footer-contact h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer .footer-contact p {}
+.footer .footer-contact .footer-description {
+    margin: 16px 0 24px;
+}
+.footer .footer-contact .footer-email {
+    margin-bottom: 16px;
+}
+.footer .footer-contact .footer-phone {
+    margin-bottom: 32px;
+}
+.footer .footer-box {
+    width: 50%;
+}
+.footer .footer-contact-social a:not(:last-child) {
+    margin-right: 30px;
+}
+.footer .footer-sub {}
+.footer .footer-sub-box {}
+.footer .footer-sub-box h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footer .footer-sub-box input[type="email"] {
+    width: 100%;
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin: 31px 0 16px;
+}
+.footer .footer-sub-box .btn-primary {
+    color: #fff;
+    background-color:#005FAC;
+    border-color:#005FAC;
+}
+.footer .footer-sub-box .btn-primary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color:#005FAC;
+}
+/* FOOTER SECTION ENDS */
 
 @media (min-width: 1200px) {
     .container {
