@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding: 0 1rem;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+ul {
+    list-style: none;
+}
+.btn-primary {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: 1px solid #005FAC;
+    background-color: #fff;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+/* HEADER + BANNER SECTION STARTS */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .box1 {
+    display: none;
+}
+.header .row {
+    min-height: 808px;
+}
+.header .header-content {
+    width: 45%;
+    text-align: right;
+
+}
+.header .header-content h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+.header .header-content p {
+    margin: 24px 0 32px;
+}
+.header .header-content .btn-primary {}
+/* HEADER + BANNER SECTION ENDS */
+
+/* FAILIURE SECTION STARTS */
+.failiure {
+    margin: 140px 0 130px;
+}
+.failiure .row {
+    gap: 87px;
+}
+.failiure .failiure-content {
+    width: 45%;
+}
+.failiure .failiure-content h2 {}
+.failiure .failiure-content p {
+    color: #444343;
+}
+.failiure .failiure-content > p {
+    margin: 24px 0 16px;
+}
+.failiure .failiure-content i {
+    color: #16D887;
+    margin-right: 10px;
+}
+
+/* FAILIURE SECTION ENDS */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+        margin: auto;
+        padding: 0;
+    }
+    .header {
+        opacity: 1;
+    }
+    .header .box1 {
+        display: block;
+    }
+}
