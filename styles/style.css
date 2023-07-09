@@ -109,6 +109,30 @@ ul {
 
 /* FAILIURE SECTION ENDS */
 
+/* MY PLANS SECTION STARTS */
+.my-plans {
+    text-align: center;
+    margin-bottom: 135px;
+}
+.my-plans .my-plans-header {
+    margin-bottom: 50px;
+}
+.my-plans .plan {
+    width: 25%;
+}
+.my-plans .plan h4 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 21px 0 16px;
+}
+.my-plans .plan p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+/* MY PLANS SECTION ENDS */
+
 @media (min-width: 1200px) {
     .container {
         width: 1140px;
